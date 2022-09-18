@@ -1,0 +1,7 @@
+z=int(input("Your length of array:"))
+l=input("Your list:")
+x = list(map(int, l.split()))
+print("Max element in array:",max(x))
+print("Array in reverse order:")
+x.reverse()
+print(x)
